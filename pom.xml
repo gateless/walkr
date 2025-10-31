@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <packaging>jar</packaging>
-  <groupId>com.github.k13labs</groupId>
+  <groupId>com.github.gateless</groupId>
   <artifactId>walkr</artifactId>
   <name>walkr</name>
   <version>0.0.1</version>
   <scm>
     <tag>0.0.1</tag>
-    <url>https://github.com/k13labs/walkr</url>
-    <connection>scm:git:git://github.com/k13labs/walkr.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/k13labs/walkr.git</developerConnection>
+    <url>https://github.com/gateless/walkr</url>
+    <connection>scm:git:git://github.com/gateless/walkr.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/gateless/walkr.git</developerConnection>
   </scm>
   <licenses>
     <license>

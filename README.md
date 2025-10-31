@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/k13labs/walkr/actions/workflows/clojure.yml/badge.svg)](https://github.com/k13labs/walkr/actions/workflows/clojure.yml)
+[![Build Status](https://github.com/gateless/walkr/actions/workflows/clojure.yml/badge.svg)](https://github.com/gateless/walkr/actions/workflows/clojure.yml)
 
 # _About_
 
@@ -41,13 +41,13 @@ GNU Make is used to simplify invocation of some commands.
 
 # _Availability_
 
-k13labs/walkr releases for this project are on [Clojars](https://clojars.org/). Simply add the following to your project:
+gateless/walkr releases for this project are on [Clojars](https://clojars.org/). Simply add the following to your project:
 
-[![Clojars Project](https://clojars.org/com.github.k13labs/walkr/latest-version.svg)](http://clojars.org/com.github.k13labs/walkr)
+[![Clojars Project](https://clojars.org/com.github.gateless/walkr/latest-version.svg)](http://clojars.org/com.github.gateless/walkr)
 
 # _Communication_
 
-- For any other questions or issues about walkr free to browse or open a [Github Issue](https://github.com/k13labs/walkr/issues).
+- For any other questions or issues about walkr free to browse or open a [Github Issue](https://github.com/gateless/walkr/issues).
 
 # Contributing
 
@@ -65,7 +65,7 @@ and [YourKit YouMonitor](https://www.yourkit.com/youmonitor/).
 
 # LICENSE
 
-Copyright 2025 Jose Gomez
+Copyright 2025 Gateless
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

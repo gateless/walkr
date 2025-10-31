@@ -1,4 +1,4 @@
-k13labs/walkr Contributors
+gateless/walkr Contributors
 
 - Jose Gomez [@k13gomez]
 
