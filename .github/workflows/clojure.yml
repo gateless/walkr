@@ -12,14 +12,14 @@ jobs:
   test:
     strategy:
       matrix:
-        java_version: [corretto-11,corretto-21]
+        java_version: [corretto-11,corretto-25]
         test_clojure_alias: [clojure-1.10, clojure-1.11, clojure-1.12]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
     - name: Tools setup
-      uses: jdx/mise-action@v2
+      uses: jdx/mise-action@v4
       with:
         install: true
         cache: true
@@ -39,9 +39,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
     - name: Tools setup
-      uses: jdx/mise-action@v2
+      uses: jdx/mise-action@v4
       with:
         install: true
         cache: true
