@@ -31,6 +31,23 @@ Here's a simple example.
 ;;;          :other "HOTTER"}}]]
 ```
 
+You can also walk multiple collections in tandem. The first collection drives the traversal shape; each additional trailing collection is walked alongside it (paired by key for maps, by value/membership for sets, by index for vectors/lists/seqs), and its corresponding value is passed as extra, read-only context to your callback. Only the first collection is transformed and rebuilt.
+
+```clj
+(w/postwalk-reduce
+  (fn [acc item & secondary-items]
+    (if (number? item)
+      [(conj acc (into [item] secondary-items)) item]
+      [acc item]))
+  []
+  {:a 1 :b 2}
+  {:a 10 :b 20})
+;;; =>
+;;; [[[1 10] [2 20]] {:a 1 :b 2}]
+```
+
+Note: for sets, pairing is by value/membership rather than position — a set element is its own key, so the corresponding secondary value is that same element if it's also present in the secondary set, or nil otherwise.
+
 See the existing tests for more examples.
 
 # _Building_

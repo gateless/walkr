@@ -5,7 +5,7 @@
  :aliases
  {:clojure-1.10 {:extra-deps {org.clojure/clojure {:mvn/version "1.10.3"}}}
   :clojure-1.11 {:extra-deps {org.clojure/clojure {:mvn/version "1.11.4"}}}
-  :clojure-1.12 {:extra-deps {org.clojure/clojure {:mvn/version "1.12.0"}}}
+  :clojure-1.12 {:extra-deps {org.clojure/clojure {:mvn/version "1.12.5"}}}
 
   :dev {:extra-paths ["dev"]
         :extra-deps {reloaded.repl/reloaded.repl {:mvn/version "0.2.4"}
