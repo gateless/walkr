@@ -1,5 +1,5 @@
 {:paths ["src"]
- :deps {org.clojure/clojure {:mvn/version "1.12.0"}}
+ :deps {org.clojure/clojure {:mvn/version "1.12.5"}}
 
  ;for more examples of aliases see: https://github.com/seancorfield/dot-clojure
  :aliases

@@ -5,9 +5,9 @@
   <groupId>com.github.gateless</groupId>
   <artifactId>walkr</artifactId>
   <name>walkr</name>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
   <scm>
-    <tag>0.0.1</tag>
+    <tag>0.1.0</tag>
     <url>https://github.com/gateless/walkr</url>
     <connection>scm:git:git://github.com/gateless/walkr.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/gateless/walkr.git</developerConnection>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure</artifactId>
-      <version>1.12.0</version>
+      <version>1.12.5</version>
     </dependency>
   </dependencies>
   <build>
